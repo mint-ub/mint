@@ -53,7 +53,7 @@ const cards = [
   {
          imageUrl: "./assets/images/games/celeste.png",
     heading: "Celeste",
-    link: "https://mint-ub.github.io/games/celeste"
+    link: "https://games-p8pzr8ar3-mapls-projects-9ec1ded2.vercel.app/celeste/"
   },
 
   {
