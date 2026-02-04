@@ -56,6 +56,11 @@ const cards = [
     link: "https://mint-ub.github.io/games/city-smash"
   },
 
+  {
+         imageUrl: "./assets/images/games/cookie-clicker.png",
+    heading: "Cookie Clicker",
+    link: "https://mint-ub.github.io/games/cookie-clicker"
+  },
 
     {
          imageUrl: "./assets/images/games/cut-the-rope.png",
@@ -136,6 +141,12 @@ const cards = [
     heading: "Kindergarten",
     link: "https://mint-ub.github.io/games/kindergarten"
   },
+ {
+     
+    imageUrl: "./assets/images/games/melon-sandbox.png",
+    heading: "Melon Sandbox",
+    link: "https://artefacts.melonsandbox.com/MelonPlayground_Webgl/MelonPlayground_SiteProd/33765/index.html"
+  },
   {
      
     imageUrl: "./assets/images/games/red-ball-4.png",
@@ -159,6 +170,24 @@ const cards = [
     imageUrl: "./assets/images/games/sans-battle-simulator.png",
     heading: "Sans Battle Simulator",
     link: "https://mint-ub.github.io/games/sans-battle-simulator"
+  },
+  {
+     
+    imageUrl: "./assets/images/games/sonic-mania.png",
+    heading: "Sonic Mania",
+    link: "https://mint-ub.github.io/games/sonic-mania"
+  },
+  {
+     
+    imageUrl: "./assets/images/games/space-waves.png",
+    heading: "Space Waves",
+    link: "https://mint-ub.github.io/games/space-waves"
+  },
+  {
+     
+    imageUrl: "./assets/images/games/stickman-hook.png",
+    heading: "Stickman Hook",
+    link: "https://mint-ub.github.io/games/stickman-hook"
   },
   {
      
