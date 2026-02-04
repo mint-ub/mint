@@ -31,7 +31,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Game Library</title>
+    <title>mint</title>
     <link rel="stylesheet" href="assets/css/index.css">
     <script src="assets/js/settings.js"></script>
 </head>
@@ -63,7 +63,7 @@
     </search>
 </div>
 
-<!-- Container where cards.js renders cards -->
+
 <div class="cards"></div>
 
 <div id="iframe-overlay" style="display:none;">
@@ -74,14 +74,14 @@
     </div>
 </div>
 
-<!-- Load cards.js first -->
+
 <script src="assets/js/cards.js"></script>
 <script>
-  // Expose cardContainer globally so search.js can use it
+
   window.cardContainer = document.querySelector(".cards");
 </script>
 
-<!-- Load search.js after cards.js -->
+
 <script src="assets/js/search.js"></script>
 
 </body>

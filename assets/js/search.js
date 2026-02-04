@@ -1,4 +1,3 @@
-// search.js
 
 function searchCards() {
     const query = document.getElementById("searchInput")?.value.toLowerCase() || "";
@@ -7,7 +6,7 @@ function searchCards() {
     const cardElements = window.cardContainer.querySelectorAll(".card, a");
 
     cardElements.forEach(cardEl => {
-        // If it's a direct <a> with <h3> inside (your placeholder), handle both
+
         const heading = cardEl.querySelector("h3");
         const link = cardEl.tagName === "A" ? cardEl : cardEl.querySelector("a");
         const text = heading ? heading.textContent.toLowerCase() : "";
@@ -35,7 +34,7 @@ function initSearch() {
     if (searchBtn) searchBtn.addEventListener("click", searchCards);
 }
 
-// Wait until the DOM is fully loaded
+
 window.addEventListener("DOMContentLoaded", () => {
     initSearch();
 });
