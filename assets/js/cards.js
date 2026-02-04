@@ -5,9 +5,9 @@ const cards = [
     link: "https://mint-ub.github.io/games/angry-birds"
   },
   {
-         imageUrl: "./assets/images/games/aquapark-io.png",
-    heading: "Aquapark.io",
-    link: "https://mint-ub.github.io/games/aquapark-io"
+         imageUrl: "./assets/images/games/angry-birds-epic.png",
+    heading: "Angry Birds Epic",
+    link: "https://mint-ub.github.io/games/angry-birds-epic"
   },
   {
          imageUrl: "./assets/images/games/bad-piggies.png",
@@ -49,11 +49,6 @@ const cards = [
     link: "https://mint-ub.github.io/games/city-smash"
   },
 
-  {
-         imageUrl: "./assets/images/games/crossy-road.png",
-    heading: "Crossy Road",
-    link: "https://mint-ub.github.io/games/crossy-road"
-  },
 
     {
          imageUrl: "./assets/images/games/cut-the-rope.png",
@@ -67,12 +62,38 @@ const cards = [
     heading: "Doki Doki Literature Club",
     link: "https://mint-ub.github.io/games/doki-doki-literature-club"
   },
+  
 
   {
          imageUrl: "./assets/images/games/drive-mad.png",
     heading: "Drive Mad",
     link: "https://mint-ub.github.io/games/drive-mad"
   },
+
+  {
+         imageUrl: "./assets/images/games/five-nights-at-freddys.png",
+    heading: "Five Nights at Freddy's",
+    link: "https://mint-ub.github.io/games/five-nights-at-freddys"
+  },
+
+  {
+         imageUrl: "./assets/images/games/five-nights-at-freddys-2.png",
+    heading: "Five Nights at Freddy's 2",
+    link: "https://mint-ub.github.io/games/five-nights-at-freddys-2"
+  },
+
+  {
+         imageUrl: "./assets/images/games/five-nights-at-freddys-3.png",
+    heading: "Five Nights at Freddy's 3",
+    link: "https://mint-ub.github.io/games/five-nights-at-freddys-3"
+  },
+
+  {
+         imageUrl: "./assets/images/games/five-nights-at-freddys-4.png",
+    heading: "Five Nights at Freddy's 4",
+    link: "https://mint-ub.github.io/games/five-nights-at-freddys-4"
+  },
+
 
   {
          imageUrl: "./assets/images/games/geometry-dash.png",

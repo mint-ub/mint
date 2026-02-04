@@ -1,30 +1,35 @@
-let preventClose = localStorage.getItem("preventClose") === "true";
+// search.js
 
-function beforeUnloadHandler(e) {
-  if (!preventClose) return;
-  e.preventDefault();
-  e.returnValue = "";
+function searchCards() {
+    if (!window.cardContainer) return;
+
+    let query = document.getElementById("searchInput").value.toLowerCase();
+    const cardElements = window.cardContainer.querySelectorAll(".card");
+
+    cardElements.forEach(cardEl => {
+        const heading = cardEl.querySelector("h3");
+        const link = cardEl.querySelector("a");
+        const text = heading.textContent.toLowerCase();
+        const href = link.getAttribute("href").toLowerCase();
+
+        if (text.includes(query) || href.includes(query)) {
+            cardEl.style.display = "";
+        } else {
+            cardEl.style.display = "none";
+        }
+    });
 }
 
-window.addEventListener("beforeunload", beforeUnloadHandler);
+function clearSearch() {
+    if (!window.cardContainer) return;
+    const cardElements = window.cardContainer.querySelectorAll(".card");
+    cardElements.forEach(cardEl => cardEl.style.display = "");
+}
 
-// Allow same-site navigation without warning
-document.addEventListener("click", (e) => {
-  const link = e.target.closest("a");
-  if (!link || !link.href) return;
+window.addEventListener("load", () => {
+    const searchInput = document.getElementById("searchInput");
+    const searchBtn = document.getElementById("search-btn");
 
-  const url = new URL(link.href, location.href);
-  if (url.origin === location.origin) {
-    preventClose = false;
-    setTimeout(() => {
-      preventClose = localStorage.getItem("preventClose") === "true";
-    }, 500);
-  }
+    if (searchInput) searchInput.addEventListener("input", searchCards);
+    if (searchBtn) searchBtn.addEventListener("click", searchCards);
 });
-
-// Toggle function (call this from a button)
-function toggleClosePrevention() {
-  preventClose = !preventClose;
-  localStorage.setItem("preventClose", preventClose);
-  return preventClose;
-}

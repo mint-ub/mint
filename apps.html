@@ -29,14 +29,14 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="stylesheet" href="assets/css/index.css">
-    <script src="assets/js/settings.js"></script>
-  <head>
+<head>
+    <meta charset="UTF-8">
+    <title>Apps</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
 
-  </head>
-  <body>
- <pre style="font-size: x-small; ">
-                                                                                                                            
+<pre style="font-size: x-small;">
                                              
                     88                       
                     ""                ,d     
@@ -47,47 +47,51 @@
 88      88      88  88  88       88   88,    
 88      88      88  88  88       88   "Y888  
                                              
-                                                                                                                                                              
-</pre>     
+</pre>   
 
 <nav class="button">
-
-<a href="index.html">games</a>
-<a href="apps.html">apps</a>
-<a href="settings.html">settings</a>
-
+    <a href="index.html">games</a>
+    <a href="apps.html">apps</a>
+    <a href="settings.html">settings</a>
 </nav>
 
 <div>
-<search>
-<input type="text" placeholder="search" style="margin-top: 20px; width: 300px; height: 25px; ">
-<button style="height: 30;">search</button>
-</search>
+    <search>
+        <input id="searchInput" type="text" placeholder="search" style="margin-top: 20px; width: 300px; height: 25px;">
+        <button id="search-btn" style="height: 30px;">search</button>
+    </search>
 
-<h1>apps coming soon</h1>
-
+    <h1>apps coming soon</h1>
 </div>
+
+<!-- Cards container for apps -->
 <div class="cards">
-    <a href=""><img src="./assets/images/na.png" alt=""></a>
-    <a href=""><h3>AppName</h3></a>
+    <!-- Example placeholder card -->
+    <a href="" class="card">
+        <img src="./assets/images/na.png" alt="">
+        <h3>AppName</h3>
+    </a>
 </div>
 
+<div class="cards"></div> <!-- dynamic apps will be rendered here -->
 
-  <div class="cards"></div>
-
-
-  <div id="iframe-overlay" style="display:none; ...">
+<div id="iframe-overlay" style="display:none;">
     <div style="position:relative; width:80vw; height:80vh;">
-      <iframe id="card-iframe" src="" style="width:100%; height:100%; border:none;"></iframe>
-      <button id="close-btn">Close</button>
-      <button id="fullscreen-btn">Fullscreen</button>
+        <iframe id="card-iframe" src="" style="width:100%; height:100%; border:none;"></iframe>
+        <button id="close-btn">Close</button>
+        <button id="fullscreen-btn">Fullscreen</button>
     </div>
-  </div>
+</div>
 
-
+<!-- Example dynamic apps script -->
 <script src="assets/js/apps.js"></script>
 
+<script>
+    // Make cardContainer global so search.js can use it
+    window.cardContainer = document.querySelector(".cards");
+</script>
 
+<script src="assets/js/search.js"></script>
 
- </body>
+</body>
 </html>
