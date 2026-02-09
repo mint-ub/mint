@@ -7,7 +7,7 @@ const cards = [
   {
     imageUrl: "./assets/images/games/angry-birds.png",
     heading: "Angry Birds",
-    link: "https://mint-ub.github.io/games/angry-birds"
+    link: "https://bulert.github.io/games/angry-birds"
   },
     {
     imageUrl: "./assets/images/games/angry-birds-2.png",
