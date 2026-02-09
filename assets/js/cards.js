@@ -9,6 +9,11 @@ const cards = [
     heading: "Angry Birds",
     link: "https://mint-ub.github.io/games/angry-birds"
   },
+    {
+    imageUrl: "./assets/images/games/angry-birds-2.png",
+    heading: "Angry Birds 2",
+    link: "https://mint-ub.github.io/games/angry-birds-2"
+  },
   {
     imageUrl: "./assets/images/games/angry-birds-epic.png",
     heading: "Angry Birds Epic",
