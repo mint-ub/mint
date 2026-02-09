@@ -64,6 +64,16 @@ const cards = [
     heading: "City Smash",
     link: "https://bulert.github.io/games/city-smash"
   },
+    {
+    imageUrl: "./assets/images/games/class-of-09-flipside.png",
+    heading: "Class of 09: Flipside",
+    link: "https://bulert.github.io/games/class-of-09-flipside"
+  },
+  {
+    imageUrl: "./assets/images/games/class-of-09-the-reup.png",
+    heading: "Class of 09: The Re-Up",
+    link: "https://bulert.github.io/games/class-of-09-reup"
+  },
   {
     imageUrl: "./assets/images/games/cookie-clicker.png",
     heading: "Cookie Clicker",
