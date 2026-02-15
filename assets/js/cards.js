@@ -1,4 +1,9 @@
 const cards = [
+    {
+    imageUrl: "./assets/images/games/1v1-lol.png",
+    heading: "1v1.lol",
+    link: "https://ohiomint-enjoyment.vercel.app/1v1-lol"
+  },
   {
     imageUrl: "./assets/images/games/among-us.png",
     heading: "Among Us",
@@ -248,6 +253,11 @@ const cards = [
     imageUrl: "./assets/images/games/rolling-sky.png",
     heading: "Rolling Sky",
     link: "https://ohiomint-enjoyment.vercel.app/rolling-sky/"
+  },
+    {
+    imageUrl: "./assets/images/games/slope.png",
+    heading: "Slope",
+    link: "https://ohiomint-enjoyment.vercel.app/slope/"
   },
   {
     imageUrl: "./assets/images/games/solar-smash.png",
