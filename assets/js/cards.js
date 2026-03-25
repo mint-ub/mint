@@ -122,7 +122,7 @@ const cards = [
   {
     imageUrl: "./assets/images/games/geometry-dash.png",
     heading: "Geometry Dash",
-    link: "https://ohiomint-enjoyment.vercel.app/geometry-dash/"
+    link: "https://geometry-dash-lite.1games.io/"
   },
   {
     imageUrl: "./assets/images/games/geometry-dash-meltdown.png",
