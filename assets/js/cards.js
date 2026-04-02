@@ -1,8 +1,18 @@
 const cards = [
-    {
+  {
     imageUrl: "./assets/images/games/1v1-lol.png",
     heading: "1v1.lol",
     link: "https://ohiomint-enjoyment.vercel.app/1v1-lol"
+  },
+  {
+    imageUrl: "./assets/images/games/10-minutes-till-dawn.png",
+    heading: "10 Minutes Till Dawn",
+    link: "https://ohiomint-enjoyment.vercel.app/10-minutes-till-dawn"
+  },
+  {
+    imageUrl: "./assets/images/games/a-dance-of-fire-and-ice.png",
+    heading: "A Dance of Fire and Ice",
+    link: "https://ohiomint-enjoyment.vercel.app/a-dance-of-fire-and-ice"
   },
   {
     imageUrl: "./assets/images/games/among-us.png",
@@ -40,6 +50,11 @@ const cards = [
     link: "https://ohiomint-enjoyment.vercel.app/baldis-basics-in-education-and-learning/"
   },
   {
+    imageUrl: "./assets/images/games/basket-random.png",
+    heading: "Basket Random",
+    link: "https://ohiomint-enjoyment.vercel.app/basket-random"
+  },
+  {
     imageUrl: "./assets/images/games/bendy-and-the-ink-machine.png",
     heading: "Bendy and the Ink Machine",
     link: "https://ohiomint-enjoyment.vercel.app/bendy-and-the-ink-machine/"
@@ -53,6 +68,11 @@ const cards = [
     imageUrl: "./assets/images/games/block-blast.png",
     heading: "Block Blast",
     link: "https://ohiomint-enjoyment.vercel.app/block-blast/"
+  },
+  {
+    imageUrl: "./assets/images/games/boxing-random.png",
+    heading: "Boxing Random",
+    link: "https://ohiomint-enjoyment.vercel.app/boxing-random"
   },
   {
     imageUrl: "./assets/images/games/buckshot-roulette.png",
@@ -75,6 +95,11 @@ const cards = [
     link: "https://ohiomint-enjoyment.vercel.app/cookie-clicker/"
   },
   {
+    imageUrl: "./assets/images/games/crossy-road.png",
+    heading: "Crossy Road",
+    link: "https://ohiomint-enjoyment.vercel.app/crossy-road"
+  },
+  {
     imageUrl: "./assets/images/games/cut-the-rope.png",
     heading: "Cut The Rope",
     link: "https://ohiomint-enjoyment.vercel.app/cut-the-rope/"
@@ -88,6 +113,11 @@ const cards = [
     imageUrl: "./assets/images/games/drive-mad.png",
     heading: "Drive Mad",
     link: "https://ohiomint-enjoyment.vercel.app/drive-mad/"
+  },
+  {
+    imageUrl: "./assets/images/games/famidash.png",
+    heading: "Famidash",
+    link: "https://ohiomint-enjoyment.vercel.app/famidash/"
   },
   {
     imageUrl: "./assets/images/games/five-nights-at-freddys.png",
@@ -122,7 +152,12 @@ const cards = [
   {
     imageUrl: "./assets/images/games/geometry-dash.png",
     heading: "Geometry Dash",
-    link: "https://geometry-dash-lite.1games.io/"
+    link: "https://ohiomint-enjoyment.vercel.app/geometry-dash/"
+  },
+  {
+    imageUrl: "./assets/images/games/geometry-dash-advance.png",
+    heading: "Geometry Dash Advance",
+    link: "https://ohiomint-enjoyment.vercel.app/geometry-dash-advance/"
   },
   {
     imageUrl: "./assets/images/games/geometry-dash-meltdown.png",
@@ -138,6 +173,11 @@ const cards = [
     imageUrl: "./assets/images/games/geometry-dash-world.png",
     heading: "Geometry Dash World",
     link: "https://ohiomint-enjoyment.vercel.app/geometry-dash-world/"
+  },
+  {
+    imageUrl: "./assets/images/games/getting-over-it.png",
+    heading: "Getting Over It",
+    link: "https://ohiomint-enjoyment.vercel.app/getting-over-it"
   },
   {
     imageUrl: "./assets/images/games/granny.png",
@@ -254,15 +294,30 @@ const cards = [
     heading: "Rolling Sky",
     link: "https://ohiomint-enjoyment.vercel.app/rolling-sky/"
   },
-    {
+  {
+    imageUrl: "./assets/images/games/schoolboy-runaway.png",
+    heading: "Schoolboy Runaway",
+    link: "https://ohiomint-enjoyment.vercel.app/schoolboy-runaway"
+  },
+  {
     imageUrl: "./assets/images/games/slope.png",
     heading: "Slope",
     link: "https://ohiomint-enjoyment.vercel.app/slope/"
   },
   {
+    imageUrl: "./assets/images/games/soccer-random.png",
+    heading: "Soccer Random",
+    link: "https://ohiomint-enjoyment.vercel.app/soccer-random"
+  },
+  {
     imageUrl: "./assets/images/games/solar-smash.png",
     heading: "Solar Smash",
     link: "https://ohiomint-enjoyment.vercel.app/solar-smash/"
+  },
+  {
+    imageUrl: "./assets/images/games/sonic-exe.png",
+    heading: "Sonic.exe",
+    link: "https://ohiomint-enjoyment.vercel.app/sonic-exe"
   },
   {
     imageUrl: "./assets/images/games/sonic-mania.png",
@@ -288,6 +343,11 @@ const cards = [
     imageUrl: "./assets/images/games/tag.png",
     heading: "Tag",
     link: "https://ohiomint-enjoyment.vercel.app/tag/"
+  },
+  {
+    imageUrl: "./assets/images/games/tattletail.png",
+    heading: "Tattletail",
+    link: "https://ohiomint-enjoyment.vercel.app/tattletail"
   },
   {
     imageUrl: "./assets/images/games/temple-run-2.png",
@@ -320,14 +380,34 @@ const cards = [
     link: "https://ohiomint-enjoyment.vercel.app/the-impossible-quiz-book-3/"
   },
   {
+    imageUrl: "./assets/images/games/there-is-no-game.png",
+    heading: "There Is No Game",
+    link: "https://ohiomint-enjoyment.vercel.app/there-is-no-game"
+  },
+  {
     imageUrl: "./assets/images/games/tomb-of-the-mask.png",
     heading: "Tomb of the Mask",
     link: "https://ohiomint-enjoyment.vercel.app/tomb-of-the-mask/"
   },
-    {
+  {
+    imageUrl: "./assets/images/games/ultrakill.png",
+    heading: "Ultrakill",
+    link: "https://ohiomint-enjoyment.vercel.app/ultrakill"
+  },
+  {
+    imageUrl: "./assets/images/games/volley-random.png",
+    heading: "Volley Random",
+    link: "https://ohiomint-enjoyment.vercel.app/volley-random"
+  },
+  {
     imageUrl: "./assets/images/games/vvvvvv.png",
     heading: "VVVVVV",
     link: "https://ohiomint-enjoyment.vercel.app/vvvvvv/"
+  },
+  {
+    imageUrl: "./assets/images/games/yandere-simulator.png",
+    heading: "Yandere Simulator",
+    link: "https://ohiomint-enjoyment.vercel.app/yandere-simulator"
   },
   {
     imageUrl: "./assets/images/games/zuma.png",
