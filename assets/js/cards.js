@@ -84,6 +84,11 @@ const cards = [
     heading: "Burrito Bison: Launcha Libre",
     link: "https://ohiomint-enjoyment.vercel.app/burrito-bison-launcha-libre/"
   },
+    {
+    imageUrl: "./assets/images/games/celeste.png",
+    heading: "Celeste",
+    link: "https://ohiomint-enjoyment.vercel.app/celeste/"
+  },
   {
     imageUrl: "./assets/images/games/city-smash.png",
     heading: "City Smash",
@@ -288,6 +293,11 @@ const cards = [
     imageUrl: "./assets/images/games/retro-bowl.png",
     heading: "Retro Bowl",
     link: "https://ohiomint-enjoyment.vercel.app/retro-bowl/"
+  },
+    {
+    imageUrl: "./assets/images/games/roblox.png",
+    heading: "Roblox",
+    link: "https://frogiesarcade.win/embed.html#https://nowgg.fun/apps/a/19900/b.html"
   },
   {
     imageUrl: "./assets/images/games/rolling-sky.png",
